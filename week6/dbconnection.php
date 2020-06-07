@@ -1,8 +1,8 @@
 <?php
-$server = "dno6xji1n8fm828n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$user = "frn8ql19w9jrd0hy";
-$pwd = "uvsw3rnopxb2uxq2";
-$database = "eq8apmg97080j54s";
+$server = "hcm4e9frmbwfez47.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$user = "fg50iy6ghhy58wsx";
+$pwd = "p8330fkwj27gaiif";
+$database = "kz46l2erzjmr1run";
 
 
 /**

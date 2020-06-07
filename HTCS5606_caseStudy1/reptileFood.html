@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reptile Food Category</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="invoice()">
+<div id = "headingBar">
+
+    <div id ="cartIcon">
+        <img src="images/icons/shoppingCartIcon.png" id = 'rotateImg'/>
+
+        <div id="cartMenu"><p>Checkout</p>
+            <div id = cartList></div>
+
+            <button id="checkout">Checkout</button>
+            <div id="invoicePage">
+                <div id = "invoiceContent">Invoice:</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="accountIcon"><img src="images/icons/accountIcon.png"/></div>
+
+    <div id="callIcon"><img src="images/icons/callIcon.png"/></div>
+
+    <a href ="index.html"><img src="images/logo.png" id = "logo" /></a>
+
+</div>
+
+<div id = "catDivContainer">
+    <div id = 'catDiv'>
+        <ul>
+            <li>
+                <img src="images/products/reptileFood.png"/>
+                <p>Jurassi-Diet Easi Dragon Reptile Food 35g</p>
+                Qty: <input type = number id = 'reptileFood1Qty' class = qty>
+                <button class = addCart id = 'addReptileFood1' onclick="addToCart(this)">Add to cart</button>
+
+            </li>
+
+        </ul>
+    </div>
+
+
+
+</div>
+
+<div id = "categories">
+    <ul>
+        <li><a href="dogFood.html"><img src="images/categories/dog.png"/></a></li>
+        <li><a href="catFood.html"><img src="images/categories/cat.png"/></a></li>
+        <li><a href="birdFood.html"><img src="images/categories/bird.png"/></a></li>
+        <li><a href="fishFood.html"><img src="images/categories/fish.png"/></a></li>
+        <li><a href="smallAnimalFood.html"><img src="images/categories/smallAnimal.png"/></a></li>
+        <li><a href="reptileFood.html"><img src="images/categories/reptile.png"/></a></li>
+    </ul>
+</div>
+
+
+<footer id="bottom">
+    <div id = contactUS>About Us</div>
+    <div id = terms>Policy</div>
+    <div id = money>Payment Options</div>
+
+</footer>
+</body>
+</html>

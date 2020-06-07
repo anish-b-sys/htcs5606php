@@ -1,0 +1,182 @@
+body
+{
+    background: #e2c4a4;
+    padding: 0;
+    margin: 0;
+}
+/*allows for simple alignment*/
+#categories ul, #promo ul, #catDiv ul{
+
+    overflow: hidden;
+    padding:0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#categories ul{
+    border-top: 2px solid black;
+}
+/*Keeps edges cleaning*/
+#categories li, #headingBar li, #promo li, #catDiv li{
+    padding:0;
+    margin: 0;
+}
+/*Formats heading bar*/
+#headingBar li img{
+     width: 35%;
+}
+#headingBar ul {
+    position: relative;
+    left: 75%;
+    top: 10%;
+    background-color: transparent;
+    width: 25%;
+    height: 75%;
+
+    overflow: hidden;
+    padding:0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}#headingBar{
+    position: relative;
+    /*height: 75px;*/
+    height: 100%;
+    width: 100%;
+    background: goldenrod;
+    border-bottom: 3px solid black;
+ }
+
+#logo{
+    display: block;
+    width: 6%;
+}
+/*Keeps images same sized and aligned*/
+#cartIcon img, #callIcon img, #accountIcon img{
+    display: block;
+    width: 4.5%;
+    position: absolute;
+    right: 25%;
+}
+#callIcon img{
+    right: 15%;
+}
+#accountIcon img{
+    right: 5%;
+}
+
+#headingImg{
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+#categories img {
+    padding:0;
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+#promo ul {
+    border-top: 2px solid black;
+}#promo img{
+    width: 100%;
+    display: block;
+    border-left: 2px solid black;
+     border-right: 2px solid black;
+ }
+/* Footer*/
+#bottom{
+    height: 100%;
+    width: 100%;
+    background: goldenrod;
+    display: flex;
+    border-top: 3px solid black;
+}
+/*Holds animal food categories*/
+#catDivContainer {
+    text-align: center;
+    /*padding-bottom: 1%;*/
+    width: 100%;
+    height: 100%;}
+#catDiv {
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    height: 100%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+#catDiv li{
+    display: inline-block;
+    border: 2px solid black;
+    margin: .5%;
+    padding: 1%;
+    background: goldenrod;
+
+}
+#catDiv ul{
+
+    flex-wrap: wrap;
+    background: rgba(173, 136, 255, 0.47);
+
+}
+
+#catDiv img{
+    text-align: center;
+    display: inline-block;
+    width: 75%;
+    border: 1px solid #DAA520;
+}
+/*Footer*/
+#bottom div {
+    width: 50%;
+    padding: 25px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    text-align: center;
+    top: 100%;
+    border-right: 1px solid #572d00;
+}
+/*Shopping cart*/
+#invoicePage{
+    border-top: 3px solid black;
+}
+#cartMenu{
+    display: block;
+    position: absolute;
+    background: goldenrod;
+    overflow: auto;
+    width: 25%;
+    left: 70.9%;
+    top:100%;
+    z-index: 1;
+    height: 0;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+/*sliding down Animation*/
+//transition-property:width;
+//transition-duration:1s;
+    transition-property:height;
+    transition-duration:1s;
+}
+/*Shopping cart hover drop down menu initiator*/
+#cartIcon:hover #cartMenu{
+    display: block;
+    border: 3px solid black;
+    /*border-right: 3px solid black;*/
+    /*border-bottom: 3px solid black;*/
+    height: 300%;
+    width: 25%;
+
+}
+
+
+
